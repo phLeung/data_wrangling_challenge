@@ -1,0 +1,82 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "daily_prices",
+      "path": "data/daily_prices.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "date",
+            "format": "default"
+          },
+          {
+            "name": "Price",
+            "type": "number",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "weekly_prices",
+      "path": "data/weekly_prices.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "date",
+            "format": "default"
+          },
+          {
+            "name": "Price",
+            "type": "number",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "monthly_prices",
+      "path": "data/monthly_prices.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "date",
+            "format": "default"
+          },
+          {
+            "name": "Price",
+            "type": "number",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "Natural Gas",
+    "weekly_prices",
+    "daily_prices",
+    "monthly_prices"
+  ],
+  "description": "Daily, weekly, and monthly prices of natural gas",
+  "contributors": [
+    {
+      "title": "Philip Leung",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "title": "Open Data Commons Public Domain Dedication and Licence 1.0",
+      "path": "http://www.opendefinition.org/licenses/odc-pddl"
+    }
+  ]
+}
