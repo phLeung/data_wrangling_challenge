@@ -34,10 +34,11 @@ def main():
     df_weekly_prices = get_prices(WEEKLY_EXCEL_URL)
     df_monthly_prices = parse_month()
 
-    df_daily_prices.to_csv("./data/daily_prices.csv",sep='\t',index=False)
-    df_weekly_prices.to_csv("./data/weekly_prices.csv",sep='\t',index=False)
-    df_monthly_prices.to_csv("./data/monthly_prices.csv",sep='\t',index=False)
+    df_daily_prices.to_csv("./data/daily_prices.csv",sep=',',index=False)
+    df_weekly_prices.to_csv("./data/weekly_prices.csv",sep=',',index=False)
+    df_monthly_prices.to_csv("./data/monthly_prices.csv",sep=',',index=False)
 
 
 if __name__ == '__main__':
     main()
+    
