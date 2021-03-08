@@ -1,0 +1,15 @@
+/*Give the line a green color and 2 px stroke width*/
+.lines
+{
+  fill: none;
+  stroke: green;
+  stroke-width: 1.5px;
+}
+.center
+{
+  margin: auto;
+  width: 50%;
+  border: 3px solid blue;
+  padding: 10px;
+
+}
